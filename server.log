@@ -1,0 +1,80 @@
+127.0.0.1 | 2026-04-22 22:29:37 | /index.html | 200 OK
+127.0.0.1 | 2026-04-22 22:30:13 | /index.html | 304 Not Modified
+127.0.0.1 | 2026-04-22 22:30:27 | /image.png | 404 Not Found
+127.0.0.1 | 2026-04-22 22:51:37 | /index.html | 200 OK
+127.0.0.1 | 2026-04-22 22:53:41 | /index.html | 200 OK
+127.0.0.1 | 2026-04-22 23:01:16 | /index.html | 200 OK
+127.0.0.1 | 2026-04-22 23:01:20 | /index.html | 304 Not Modified
+127.0.0.1 | 2026-04-22 23:01:23 | /test.txt | 404 Not Found
+127.0.0.1 | 2026-04-22 23:01:26 | /test.txt | 404 Not Found
+127.0.0.1 | 2026-04-22 23:01:32 | /test.png | 404 Not Found
+127.0.0.1 | 2026-04-22 23:05:23 | /index.html | 200 OK
+127.0.0.1 | 2026-04-22 23:05:25 | /index.html | 304 Not Modified
+127.0.0.1 | 2026-04-22 23:05:28 | /test.txt | 404 Not Found
+127.0.0.1 | 2026-04-22 23:12:09 | /index.html | 200 OK
+127.0.0.1 | 2026-04-22 23:12:11 | /index.html | 304 Not Modified
+127.0.0.1 - - [2026-04-23 00:48:12] "GET /index.html HTTP/1.1" 200 - ""
+127.0.0.1 - - [2026-04-23 00:48:38] "GET /test.png HTTP/1.1" 404 - ""
+127.0.0.1 - - [2026-04-23 00:48:38] "GET /test.png HTTP/1.1" 404 - ""
+127.0.0.1 - - [2026-04-23 00:48:38] "GET /test.txt HTTP/1.1" 200 - ""
+127.0.0.1 - - [2026-04-23 00:48:50] "GET /test.png HTTP/1.1" 404 - ""
+127.0.0.1 - - [2026-04-23 00:48:50] "GET /test.txt HTTP/1.1" 200 - ""
+127.0.0.1 - - [2026-04-23 00:48:50] "GET /test.png HTTP/1.1" 404 - ""
+localhost (127.0.0.1) | 2026-04-23 00:51:45 | /index.html | 304 | GET
+localhost (127.0.0.1) | 2026-04-23 00:51:53 | /test.txt | 304 | GET
+localhost (127.0.0.1) | 2026-04-23 00:51:58 | /test.png | 200 | GET
+localhost (127.0.0.1) | 2026-04-23 00:52:09 | /test.png | 200 | GET
+localhost (127.0.0.1) | 2026-04-23 00:52:12 | /test.txt | 200 | GET
+localhost (127.0.0.1) | 2026-04-23 00:52:14 | /index.html | 200 | GET
+localhost (127.0.0.1) | 2026-04-23 00:52:17 | /abc.html | 404 | GET
+localhost (127.0.0.1) | 2026-04-23 00:55:32 | /index.html | 200 | GET
+localhost (127.0.0.1) | 2026-04-23 00:55:48 | /test.txt | 200 | GET
+localhost (127.0.0.1) | 2026-04-23 00:55:53 | /test.png | 200 | GET
+localhost (127.0.0.1) | 2026-04-23 00:59:34 | /index.html | 200 | GET
+localhost (127.0.0.1) | 2026-04-23 00:59:36 | /index.html | 200 | GET
+localhost (127.0.0.1) | 2026-04-23 00:59:37 | /index.html | 200 | GET
+localhost (127.0.0.1) | 2026-04-23 00:59:38 | /index.html | 200 | GET
+localhost (127.0.0.1) | 2026-04-23 00:59:40 | /test.txt | 200 | GET
+localhost (127.0.0.1) | 2026-04-23 00:59:40 | /test.txt | 200 | GET
+localhost (127.0.0.1) | 2026-04-23 00:59:42 | /test.png | 200 | GET
+localhost (127.0.0.1) | 2026-04-23 00:59:42 | /test.png | 200 | GET
+localhost (127.0.0.1) | 2026-04-23 00:59:44 | /abc.html | 404 | GET
+localhost (127.0.0.1) | 2026-04-23 00:59:49 | /secret.txt | 404 | GET
+localhost (127.0.0.1) | 2026-04-23 00:59:56 | /index.html | 200 | GET
+localhost (127.0.0.1) | 2026-04-23 00:59:58 | /abc.html | 404 | GET
+localhost (127.0.0.1) | 2026-04-23 01:00:01 | /index.html | 200 | GET
+localhost (127.0.0.1) | 2026-04-23 01:00:01 | /index.html | 200 | GET
+localhost (127.0.0.1) | 2026-04-23 01:00:01 | /index.html | 200 | GET
+localhost (127.0.0.1) | 2026-04-23 01:00:02 | /index.html | 200 | GET
+localhost (127.0.0.1) | 2026-04-23 01:00:02 | /index.html | 200 | GET
+localhost (127.0.0.1) | 2026-04-23 01:00:02 | /index.html | 200 | GET
+localhost (127.0.0.1) | 2026-04-23 01:00:02 | /index.html | 200 | GET
+localhost (127.0.0.1) | 2026-04-23 01:00:02 | /index.html | 200 | GET
+localhost (127.0.0.1) | 2026-04-23 01:10:32 | /index.html | 200 | GET
+localhost (127.0.0.1) | 2026-04-23 01:10:35 | /index.html | 200 | GET
+localhost (127.0.0.1) | 2026-04-23 01:10:36 | /index.html | 200 | GET
+localhost (127.0.0.1) | 2026-04-23 01:11:28 | /test.txt | 200 | GET
+localhost (127.0.0.1) | 2026-04-23 01:11:31 | /index.html | 200 | GET
+localhost (127.0.0.1) | 2026-04-23 01:14:32 | /index.html | 200 | GET
+localhost (127.0.0.1) | 2026-04-23 01:14:35 | /test.txt | 200 | GET
+localhost (127.0.0.1) | 2026-04-23 01:14:37 | /test.png | 200 | GET
+localhost (127.0.0.1) | 2026-04-23 01:14:39 | /abc.html | 404 | GET
+localhost (127.0.0.1) | 2026-04-23 01:14:45 | /index.html | 200 | GET
+localhost (127.0.0.1) | 2026-04-23 01:14:48 | /secret.txt | 404 | GET
+localhost (127.0.0.1) | 2026-04-23 01:14:52 | /index.html%202%3E&1%20%7C%20grep%20-i%20last-modified | 404 | GET
+localhost (127.0.0.1) | 2026-04-24 00:49:05 | /index.html | 200 | GET
+localhost (127.0.0.1) | 2026-04-24 00:49:06 | /index.html | 200 | GET
+localhost (127.0.0.1) | 2026-04-24 00:49:08 | /test.txt | 200 | GET
+localhost (127.0.0.1) | 2026-04-24 00:49:10 | /test.png | 200 | GET
+localhost (127.0.0.1) | 2026-04-24 01:11:51 | /index.html | 200 | GET
+localhost (127.0.0.1) | 2026-04-24 01:11:54 | /test.txt | 200 | GET
+localhost (127.0.0.1) | 2026-04-24 01:11:56 | /test.png | 200 | GET
+localhost (127.0.0.1) | 2026-04-24 01:11:58 | /abc.html | 404 | GET
+localhost (127.0.0.1) | 2026-04-24 01:12:04 | /index.html | 200 | GET
+localhost (127.0.0.1) | 2026-04-24 01:12:05 | /index.html | 200 | GET
+localhost (127.0.0.1) | 2026-04-24 01:12:05 | /index.html | 200 | GET
+127.0.0.1 | 2026-04-24 01:14:38 | /index.html | 404 Not Found
+127.0.0.1 | 2026-04-24 01:14:40 | /index.html | 404 Not Found
+127.0.0.1 | 2026-04-24 01:14:41 | /index.html | 404 Not Found
+127.0.0.1 | 2026-04-24 01:14:41 | /index.html | 404 Not Found
+127.0.0.1 | 2026-04-24 01:14:43 | /index.html | 404 Not Found
